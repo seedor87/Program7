@@ -1,3 +1,7 @@
+import java.util.HashMap;
+import java.util.Objects;
+
+import java.util.*;
 /**
  * Test the Expression interpreter.
  *  
@@ -12,22 +16,27 @@
 
 public class Driver {
 
+    /*
+    Table of variables and values
+     */
+    public static HashMap<Object, Object> table = new HashMap<Object, Object>();
+
     public static void main(String[] args) {
-//         Exp e1 = new Constant (3);
-//         Exp e2 = new Constant (7);
-//        
-//         Eval intrp = new Eval();
-//         System.out.println (intrp.visit (new Product (e1,e2)));     // 3 * 7
-//         
-//         Exp x = new Identifier ("x");
-//         try {
-//         System.out.println (intrp.visit (new Product (x,e2)));      // x * 7
-//     }
-//         catch (Exception e)
-//             {  System.out.println ("Exception caught");  }
-//             
-//         Exp e3 = new Assign (x, e1);                            // x = 3
-//         System.out.println (intrp.visit (new Product (e3,e2)));      // (x=3) * 7
+         /*Exp e1 = new Constant (3);
+         Exp e2 = new Constant (7);
+
+         Eval intrp = new Eval();
+         System.out.println (intrp.visit (new Product (e1,e2)));     // 3 * 7
+
+         Exp x = new Identifier ("x");
+         try {
+         System.out.println (intrp.visit (new Product (x,e2)));      // x * 7
+     }
+         catch (Exception e)
+             {  System.out.println ("Exception caught");  }
+
+         Exp e3 = new Assign (x, e1);                            // x = 3
+         System.out.println (intrp.visit (new Product (e3,e2)));      // (x=3) * 7*/
         
         Exp e1 = new Constant(3);
         Exp e2 = new Sum(e1,new Constant(2));

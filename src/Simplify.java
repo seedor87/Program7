@@ -7,33 +7,44 @@
  * @author (sdb)
  * @version (Mar 2016)
  */
-public class Simplify
-    implements Visitor
+public class Simplify implements Visitor {
     
-{
-    
-     public Exp visit (Sum n)
-     {  
-        return  new Sum ((Exp)n.left.accept(this), (Exp)n.right.accept(this));
+    public Exp visit (Sum n) {
+         return  new Sum ((Exp)n.left.accept(this), (Exp)n.right.accept(this));
      }
      
-    public Exp visit (Difference n)
-    {   Equals eq = new Equals();
-         Exp result =  new Difference ((Exp)n.left.accept(this), 
-                 (Exp)n.right.accept(this));
+    public Exp visit (Difference n) {
+        Equals eq = new Equals();
+         Exp result =  new Difference((Exp)n.left.accept(this), (Exp)n.right.accept(this));
          if ((Boolean) eq.visit (result.left, result.right))        // x-x = 0
                 return new Constant(0);
          return result;
     }
     
-//     public int visit (Product n)
-//     {  return(Integer) n.left.accept (this) *(Integer) n.right.accept(this);  }
-//     
-//     public int visit (Quotient n)
-//     {  return(Integer) n.left.accept (this) /(Integer) n.right.accept(this);  }
-//     
-//     public int visit (Identifier n)
-//     {  return n.accept(this);  }
+     public Exp visit (Product n) {
+         Exp result = new Product ((Exp)n.left.accept(this), (Exp)n.right.accept(this));
+         return result;
+     }
+
+     public Exp visit (Quotient n) {
+         Exp result = new Quotient((Exp) n.left.accept(this), (Exp) n.right.accept(this));
+         return result;
+     }
+
+    public Exp visit (Mod n) {
+        Exp result = new Mod((Exp) n.left.accept(this), (Exp) n.right.accept(this));
+        return result;
+    }
+
+    public Exp visit (Assign n) {
+        Exp result = new Assign((Exp) n.left.accept(this), (Exp) n.right.accept(this));
+        return result;
+    }
+
+     public Exp visit (Identifier n) {
+        Exp result = new Identifier ((Exp)n.left.accept(this), (Exp)n.right.accept(this));
+        return result;
+    }
     
     public Exp visit (Constant n)
     { 

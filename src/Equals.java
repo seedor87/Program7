@@ -7,13 +7,9 @@
  * @author (sdb)
  * @version (Mar 2016)
  */
-public class Equals
-    implements Visitor
+public class Equals implements Visitor {
     
-{
-    
-     public Boolean visit (Sum n)
-     {
+     public Boolean visit (Sum n) {
          return visit (n.left, n.right);
        // return  new Sum ((Boolean)n.left.accept(this), (Exp)n.right.accept(this));
      }
@@ -46,18 +42,29 @@ public class Equals
 
         }
     
-//     public int visit (Product n)
-//     {  return(Integer) n.left.accept (this) *(Integer) n.right.accept(this);  }
-//     
-//     public int visit (Quotient n)
-//     {  return(Integer) n.left.accept (this) /(Integer) n.right.accept(this);  }
-//     
-//     public int visit (Identifier n)
-//     {  return n.accept(this);  }
+     public Boolean visit (Product n) {
+         return visit (n.left, n.right);
+     }
+
+     public Boolean visit (Quotient n) {
+         return visit (n.left, n.right);
+     }
+
+    public Boolean visit (Mod n) {
+        return visit (n.left, n.right);
+    }
+
+    public Boolean visit (Assign n) {
+        return visit (n.left, n.right);
+    }
+
+     public Boolean visit (Identifier n) {
+         //return n.accept(this);
+         return true;
+     }
     
-    public Integer visit (Constant n)
-    { 
-        return n.value;  
+    public Integer visit (Constant n) {
+        return n.value;
     }
     
 //     public int visit (Assign n)

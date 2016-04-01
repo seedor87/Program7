@@ -7,10 +7,12 @@
  * @author (sdb)
  * @version (Mar 2016)
  */
-public abstract class Exp
-{   Exp left, right;
+public abstract class Exp {
+
+    Exp left, right;
     
     public abstract Object accept (Visitor v);
+
 }
 
 

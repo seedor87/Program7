@@ -7,39 +7,42 @@
  * @author (sdb)
  * @version (Mar 2016)
  */
-public class Eval
-    implements Visitor
-    
-{
-     public Integer visit (Sum n)
-     {  
+public class Eval implements Visitor {
+
+     public Integer visit (Sum n) {
          return (Integer) n.left.accept(this) + 
                 (Integer) n.right.accept (this);
      }
      
-    public Integer visit (Difference n)
-    {  return (Integer) n.left.accept(this) - 
-                (Integer) n.right.accept (this); 
+    public Integer visit (Difference n) {
+        return (Integer) n.left.accept(this) - (Integer) n.right.accept (this);
     }
     
-//     public int visit (Product n)
-//     {  return(Integer) n.left.accept (this) *(Integer) n.right.accept(this);  }
-//     
-//     public int visit (Quotient n)
-//     {  return(Integer) n.left.accept (this) /(Integer) n.right.accept(this);  }
-//     
-//     public int visit (Identifier n)
-//     {  return n.accept(this);  }
+     public Integer visit (Product n) {
+         return(Integer) n.left.accept (this) * (Integer) n.right.accept(this);
+     }
+
+     public Integer visit (Quotient n) {
+         return(Integer) n.left.accept (this) / (Integer) n.right.accept(this);
+     }
+
+    public Integer visit (Mod n) {
+        return(Integer) n.left.accept (this) % (Integer) n.right.accept(this);
+    }
+
+     public Integer visit (Identifier n) {
+         //return n.accept(this);
+         return 1;
+     }
     
-    public Integer visit (Constant n)
-    { 
-        return n.value;  
+    public Integer visit (Constant n) {
+        return n.value;
     }
     
-//     public int visit (Assign n)
-//     {  ((Identifier) (n.left)).setValue (n.right.accept(this));
-//         return n.right.accept(this);  
-//     }
+     public Object visit (Assign n) {
+         ((Identifier) (n.left)).setValue((Integer) n.right.accept(this));
+         return n.right.accept(this);
+     }
 
     // stub, should never be called
     public Exp visit (Exp e1, Exp e2)
