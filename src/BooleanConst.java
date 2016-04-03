@@ -1,13 +1,10 @@
 /**
- * A Constant is an Expression which has a value.
- *
- * @author (sdb)
- * @version (Mar 2016)
+ * Created by robertseedorf on 4/2/16.
  */
-public class Constant extends Exp {
-    Integer value;
+public class BooleanConst extends Exp {
+    Boolean value;
 
-    public Constant (Integer n)
+    public BooleanConst (Boolean n)
     {    value = n;   }
 
     /** @return the value of this Number,

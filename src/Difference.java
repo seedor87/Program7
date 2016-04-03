@@ -12,13 +12,13 @@ public class Difference extends Exp {
        left = l;
         right = r;
     }
-    
-    /** @return the difference of the two given expressions,
-       by calling the appropriate Visitor
-    */
+
     public Object accept (Visitor v) {
         return (Integer)  v.visit (this);
     }
 
+    public String toString() {
+        return left.toString() + " - " + right.toString();
+    }
     
 }

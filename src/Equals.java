@@ -27,19 +27,24 @@ public class Equals implements Visitor {
             return ((Boolean) visit (e1.left, e2.left)) &&
                     ((Boolean) visit (e1.right, e2.right)) ||
                     ((Boolean) visit (e1.left, e2.right)) &&
-                    ((Boolean) visit (e1.right, e2.left))
-                    
-                    
-                    
-                    ;
+                    ((Boolean) visit (e1.right, e2.left));
         
         if (e1 instanceof Difference)
             return ((Boolean) visit (e1.left, e2.left)) &&
                     ((Boolean) visit (e1.right, e2.right));
-       //  (e1 instanceof Number)
-            return ((Constant)e1).value.equals (((Constant)e2).value);
 
+       if (e1 instanceof Product)
+           return ((Boolean) visit (e1.left, e2.left)) &&
+                   ((Boolean) visit (e1.right, e2.right)) ||
+                   ((Boolean) visit (e1.left, e2.right)) &&
+                           ((Boolean) visit (e1.right, e2.left));
 
+        if (e1 instanceof Quotient)
+            return ((Boolean) visit (e1.left, e2.left)) &&
+                    ((Boolean) visit (e1.right, e2.right));
+
+        //default case
+        return ((Constant)e1).value.equals (((Constant)e2).value);
         }
     
      public Boolean visit (Product n) {
@@ -54,9 +59,41 @@ public class Equals implements Visitor {
         return visit (n.left, n.right);
     }
 
+    public Boolean visit (And n) {
+        return visit (n.left, n.right);
+    }
+
+    public Boolean visit (Or n) {
+        return visit (n.left, n.right);
+    }
+
+    public Boolean visit (GreaterThan n) {
+        return visit (n.left, n.right);
+    }
+
+    public Boolean visit (AltGreaterThan n) { return  visit (n.left, n.right); }
+
+    public Boolean visit (LessThan n) {
+        return visit (n.left, n.right);
+    }
+
+    public Boolean visit (AltLessThan n) {
+        return visit (n.left, n.right);
+    }
+
     public Boolean visit (Assign n) {
         return visit (n.left, n.right);
     }
+
+    public Boolean visit (AltPlus n) { return visit (n.left, n.right); }
+
+    public Boolean visit (AltMinus n) { return visit (n.left, n.right); }
+
+    public Boolean visit (AltMult n) { return visit (n.left, n.right); }
+
+    public Boolean visit (AltDiv n) { return visit (n.left, n.right); }
+
+    public Boolean visit (AltMod n) { return visit (n.left, n.right); }
 
      public Boolean visit (Identifier n) {
          //return n.accept(this);
@@ -66,13 +103,18 @@ public class Equals implements Visitor {
     public Integer visit (Constant n) {
         return n.value;
     }
+
+    public Boolean visit (BooleanConst n) { return n.value; }
     
 //     public int visit (Assign n)
 //     {  ((Identifier) (n.left)).setValue (n.right.accept(this));
 //         return n.right.accept(this);  
 //     }
 
-    // stub
     public Object visit (Exp e)
-    {   return null;  }
+    {   throw new IllegalArgumentException("Invalid Expression");  }
+
+    public String toString(Exp n) {
+        return n.toString();
+    }
 }

@@ -3,13 +3,17 @@
  */
 public class Product extends Exp {
 
-    public Product (Exp l, Exp r)
-    {    left = l;
+    public Product (Exp l, Exp r) {
+        left = l;
         right = r;
     }
 
-    public Object accept (Visitor v)
-    {   return  v.visit (this);
+    public Object accept (Visitor v) {
+        return  v.visit (this);
 
+    }
+
+    public String toString() {
+        return left.toString() + " * " + right.toString();
     }
 }

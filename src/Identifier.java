@@ -3,11 +3,11 @@
  */
 public class Identifier extends Exp {
 
-    Object value;
+    public Object value;
+    String name;
 
-    public Identifier (Exp l, Exp r) {
-        left = l;
-        right = r;
+    public Identifier (String name) {
+        this.name = name;
     }
 
     public Object accept (Visitor v) {
@@ -16,5 +16,12 @@ public class Identifier extends Exp {
 
     public void setValue(Integer i) {
         this.value = i;
+    }
+
+    public String toString() {
+        if(value != null) {
+            return "(" + name + "=" + value + ")";
+        }
+        return name;
     }
 }

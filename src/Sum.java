@@ -15,7 +15,10 @@ public class Sum  extends Exp {
     
     public Object accept (Visitor v) {
         return  v.visit (this);
-       
+    }
+
+    public String toString() {
+        return left.toString() + " + " + right.toString();
     }
     
 }
