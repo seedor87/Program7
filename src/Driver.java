@@ -31,7 +31,7 @@ public class Driver {
         Exp e1 = new Constant (3);
         Exp e2 = new Constant (7);
         intrp = new Eval();
-        print (intrp.visit (new Product (e1,e2)));     // 3 * 7
+        print (intrp.visit (new Sum (e1,e2)));     // 3 + 7
 
         print("---- Ex 2 ---");
         Exp x = new Identifier ("x");
@@ -39,8 +39,8 @@ public class Driver {
             print (intrp.visit (new Product (x,e2)));      // x * 7
         }
         catch (Exception e) {
-            print ("Exception caught");  }
-
+            print ("Exception caught");
+        }
 
         Exp e3 = new Assign (x, e1);                            // x = 3
         print (intrp.visit (new Product (e3,e2)));      // (x=3) * 7
@@ -104,7 +104,49 @@ public class Driver {
             print(question + ": " + intrp.visit((AltMult) question));
         }
 
+        print("---- Ex 9 ----");
+        e1 = new Identifier("b");
+        e3 = new Assign(e1, new StringConst("ABSCDEFGHIJKLMNOPQRSTUVWXYZ"));
+        print(intrp.visit((Assign) e3));
 
+        print("---- Ex 10 ----");
+        e1 = new Identifier("b");
+        e2 = new Assign(e1, new StringConst("ABSCDEFGHIJ"));
+        print(intrp.visit((Assign) e2));
+        question = new AltPlus(e2, new StringConst("KLMNOPQRSTUVWXYZ"));
+        print(question + ": " + intrp.visit((AltPlus) question));
+
+        print("---- Ex 11 ----");
+        e1 = new Identifier("c");
+        e2 = new Assign(e1, new Sum(new StringConst("He"), new Sum(new StringConst("llo "), new StringConst("World!"))));
+        print(e2 + ": " + intrp.visit((Assign) e2));
+
+        print("---- Problem 1 ----");
+        Identifier a = new Identifier ("a");
+        Assign assign = new Assign (a, new Constant(17));       // a = 17
+        intrp = new Eval();                                     // A Visitor which evaluates an expression tree
+        try  {
+            print(intrp.visit (a));
+        }          // An Exception is thrown
+        catch (Exception e) {
+            print( e);
+        }
+        print(intrp.visit (assign));
+        print(intrp.visit (a));                      // No Exception is thrown
+
+        print("---- Problem 2 ----");
+        toString toStr = new toString();
+        a = new Identifier("a");
+        print(toStr.visit(a));
+        Exp b = new Identifier("b");
+        print(toStr.visit(b));
+        Exp e = new Identifier("e");
+        Exp sum = new Sum(b, new Constant(2));  // b + 2
+        print(toStr.visit(sum));
+        Exp quo = new Quotient(a, sum);     // a / b + 2
+        print(toStr.visit(quo));
+        question = new Assign(e, quo);     // e =  a / (b+2)
+        print(toStr.visit(question));
     }
 
     public static void print(Object o) {

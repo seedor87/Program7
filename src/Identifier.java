@@ -14,7 +14,7 @@ public class Identifier extends Exp {
         return  v.visit (this);
     }
 
-    public void setValue(Integer i) {
+    public void setValue(Object i) {
         this.value = i;
     }
 

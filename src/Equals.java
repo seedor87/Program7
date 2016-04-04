@@ -105,6 +105,8 @@ public class Equals implements Visitor {
     }
 
     public Boolean visit (BooleanConst n) { return n.value; }
+
+    public String visit (StringConst n) { return n.value; }
     
 //     public int visit (Assign n)
 //     {  ((Identifier) (n.left)).setValue (n.right.accept(this));

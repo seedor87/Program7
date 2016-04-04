@@ -107,6 +107,8 @@ public class Simplify implements Visitor {
 
     public Exp visit (BooleanConst n) { return n; }
 
+    public Exp visit (StringConst n) { return n; }
+
     public Exp visit (Exp e1, Exp e2)
     {   return null;  }
     

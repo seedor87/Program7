@@ -11,9 +11,11 @@ import sun.tools.tree.LessExpression;
  */
 public class Eval implements Visitor {
 
-     public Integer visit (Sum n) {
-         return (Integer) n.left.accept(this) + 
-                (Integer) n.right.accept (this);
+     public Object visit (Sum n) {
+         if(n.left instanceof StringConst || n.right instanceof StringConst) {
+            return (String) n.left.accept(this) + (String) n.right.accept (this);
+         }
+         return (Integer) n.left.accept(this) + (Integer) n.right.accept (this);
      }
      
     public Integer visit (Difference n) {
@@ -68,13 +70,27 @@ public class Eval implements Visitor {
     }
 
     public Boolean visit (BooleanConst n) { return n.value; }
+
+    public String visit (StringConst n) { return n.value; }
     
     public Object visit (Assign n) {
-         ((Identifier) (n.left)).setValue((Integer) n.right.accept(this));
-         return n.right.accept(this);
-     }
+        if(n.right instanceof StringConst) {
+            ((Identifier) (n.left)).setValue((String) n.right.accept(this));
+            return n.right.accept(this);
+        }
+        if(n.right instanceof Sum) {
+            ((Identifier) (n.left)).setValue((String) n.right.accept(this));
+            return n.right.accept(this);
+        }
+        ((Identifier) (n.left)).setValue((Integer) n.right.accept(this));
+        return n.right.accept(this);
+    }
 
     public Object visit (AltPlus n) {
+        if(n.right instanceof StringConst) {
+            String value = (String) n.left.accept(this) + (String) n.right.accept(this);
+            return (value);
+        }
         Integer value = (Integer) n.left.accept(this) + (Integer) n.right.accept(this);
         ((Identifier) (n.left)).setValue(value);
         return (value);
@@ -108,6 +124,8 @@ public class Eval implements Visitor {
     public Exp visit (Exp e1, Exp e2) {
         return null;
     }
+
+    public Exp visit(Exp e) { return null; }
 
     public String toString(Exp n) {
         return n.toString();

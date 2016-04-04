@@ -30,6 +30,7 @@ public interface Visitor {
     Object visit(Identifier n);
     Object visit(Constant n);
     Object visit(BooleanConst n);
+    Object visit(StringConst N);
     Object visit(Exp e1, Exp e2);            // For Equals
 
     String toString(Exp n);
