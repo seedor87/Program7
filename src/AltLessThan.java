@@ -1,5 +1,7 @@
 /**
  * Created by robertseedorf on 4/2/16.
+ *
+ * this class represents <= in regular java
  */
 public class AltLessThan extends Exp{
 
@@ -13,6 +15,6 @@ public class AltLessThan extends Exp{
     }
 
     public String toString() {
-        return left.toString() + " < " + right.toString();
+        return left.toString() + " ?< " + right.toString();
     }
 }

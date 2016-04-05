@@ -1,6 +1,11 @@
 
 /**
- * Created by robertseedorf on 4/4/16.
+ * Task:  return the tree of hte evaluable expression as a string
+ * Implements Visitor.
+ * Uses the Visitor pattern.
+ *
+ * @author (sdb) and Bob and Bill
+ * @version (Mar 2016) and April 2016
  */
 public class toString implements Visitor {
 
@@ -47,6 +52,8 @@ public class toString implements Visitor {
     public String visit (AltLessThan n) {
         return "( " + n.left.accept(this) + " ?< "  +  n.right.accept (this) + " )";
     }
+
+    public String visit (BooleanEquals n) { return "( " + n.left.accept(this) + " ?= " + n.right.accept(this) + " )"; }
 
     public String visit (Assign n) {
         return n.left.accept(this) + " = " + n.right.accept (this);

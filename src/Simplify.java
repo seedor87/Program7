@@ -66,6 +66,11 @@ public class Simplify implements Visitor {
         return result;
     }
 
+    public Exp visit (BooleanEquals n) {
+        Exp result = new BooleanEquals((Exp) n.left.accept(this), (Exp) n.right.accept(this));
+        return result;
+    }
+
     public Exp visit (Assign n) {
         Exp result = new Assign((Exp) n.left.accept(this), (Exp) n.right.accept(this));
         return result;

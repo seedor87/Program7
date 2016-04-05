@@ -1,5 +1,7 @@
 /**
  * Created by robertseedorf on 3/31/16.
+ *
+ * * this class represents * in regular java
  */
 public class Product extends Exp {
 

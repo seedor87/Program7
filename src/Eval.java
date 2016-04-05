@@ -58,6 +58,8 @@ public class Eval implements Visitor {
         return (Integer) n.left.accept(this) <= (Integer) n.right.accept(this);
     }
 
+    public Boolean visit (BooleanEquals n) { return (Integer) n.left.accept(this) == (Integer) n.right.accept(this); }
+
      public Integer visit (Identifier n) {
          if(n.value != null) {
              return (Integer) n.value;

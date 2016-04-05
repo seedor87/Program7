@@ -1,4 +1,3 @@
-import java.util.Objects;
 
 /**
  * Abstract class for Expressions.
@@ -21,6 +20,7 @@ public interface Visitor {
     Object visit(AltGreaterThan n);
     Object visit(LessThan n);
     Object visit(AltLessThan n);
+    Object visit(BooleanEquals n);
     Object visit(Assign n);
     Object visit(AltPlus n);
     Object visit(AltMinus n);

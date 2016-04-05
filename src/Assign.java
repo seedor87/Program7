@@ -1,5 +1,7 @@
 /**
  * Created by robertseedorf on 3/31/16.
+ *
+ * * this class represents assignment on all, string, integers, and booleans in regular java
  */
 public class Assign extends Exp {
 
