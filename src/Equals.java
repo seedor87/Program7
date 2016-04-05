@@ -6,7 +6,7 @@ import com.sun.org.apache.xpath.internal.operations.Bool;
  * Uses the Visitor pattern.
  * (This is what the optimization phase of a compiler would do)
  * 
- * @author (sdb) and Bob S. and Will C.
+ * @author Bob S. and Bill C.
  * @version (Mar 2016)
  */
 public class Equals implements Visitor {

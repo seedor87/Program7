@@ -1,7 +1,7 @@
 /**
  * A Constant is an Expression which has a value.
  *
- * @author (sdb) and Bob S. and Bill C.
+ * @author Bob S. and Bill C.
  * @version (Mar 2016)
  */
 public class Constant extends Exp {

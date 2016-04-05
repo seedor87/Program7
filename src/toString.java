@@ -4,7 +4,7 @@
  * Implements Visitor.
  * Uses the Visitor pattern.
  *
- * @author (sdb) and Bob and Bill
+ * @author and Bob and Bill
  * @version (Mar 2016) and April 2016
  */
 public class toString implements Visitor {

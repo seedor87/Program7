@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f2106c4-9475-4445-83ba-5a9253ced13c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program7/Constant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program7/Difference.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program7/Exp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program7/README.TXT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program7/Sum.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Constant.java" afterPath="$PROJECT_DIR$/src/Constant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Difference.java" afterPath="$PROJECT_DIR$/src/Difference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Driver.java" afterPath="$PROJECT_DIR$/src/Driver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Equals.java" afterPath="$PROJECT_DIR$/src/Equals.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Eval.java" afterPath="$PROJECT_DIR$/src/Eval.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exp.java" afterPath="$PROJECT_DIR$/src/Exp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parser.java" afterPath="$PROJECT_DIR$/src/Parser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Simplify.java" afterPath="$PROJECT_DIR$/src/Simplify.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sum.java" afterPath="$PROJECT_DIR$/src/Sum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Visitor.java" afterPath="$PROJECT_DIR$/src/Visitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/toString.java" afterPath="$PROJECT_DIR$/src/toString.java" />
     </list>
     <ignored path="program7.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,71 +41,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5175#5176#0" expanded="true" />
-                <element signature="e#5225#5226#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Parser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24746907">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.5442177">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringConst.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StringConst.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-              <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/toString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TopDownParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/program4/TopDownParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="63" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="63" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -117,16 +76,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Exp.java" />
         <option value="$PROJECT_DIR$/src/Quotient.java" />
         <option value="$PROJECT_DIR$/src/Mod.java" />
         <option value="$PROJECT_DIR$/src/Product.java" />
-        <option value="$PROJECT_DIR$/src/Sum.java" />
         <option value="$PROJECT_DIR$/src/Assign.java" />
-        <option value="$PROJECT_DIR$/src/Difference.java" />
         <option value="$PROJECT_DIR$/src/And.java" />
         <option value="$PROJECT_DIR$/src/Or.java" />
-        <option value="$PROJECT_DIR$/src/Constant.java" />
         <option value="$PROJECT_DIR$/src/BooleanConst.java" />
         <option value="$PROJECT_DIR$/src/GreaterThan.java" />
         <option value="$PROJECT_DIR$/src/LessThan.java" />
@@ -137,15 +92,19 @@
         <option value="$PROJECT_DIR$/src/AltDiv.java" />
         <option value="$PROJECT_DIR$/src/AltGreaterThan.java" />
         <option value="$PROJECT_DIR$/src/AltLessThan.java" />
-        <option value="$PROJECT_DIR$/src/Visitor.java" />
-        <option value="$PROJECT_DIR$/src/Equals.java" />
-        <option value="$PROJECT_DIR$/src/Simplify.java" />
         <option value="$PROJECT_DIR$/src/Identifier.java" />
-        <option value="$PROJECT_DIR$/src/Driver.java" />
         <option value="$PROJECT_DIR$/src/AltMod.java" />
-        <option value="$PROJECT_DIR$/src/Eval.java" />
         <option value="$PROJECT_DIR$/src/program4/TopDownParser.java" />
+        <option value="$PROJECT_DIR$/src/Constant.java" />
+        <option value="$PROJECT_DIR$/src/Difference.java" />
+        <option value="$PROJECT_DIR$/src/Driver.java" />
+        <option value="$PROJECT_DIR$/src/Equals.java" />
+        <option value="$PROJECT_DIR$/src/Eval.java" />
+        <option value="$PROJECT_DIR$/src/Exp.java" />
+        <option value="$PROJECT_DIR$/src/Simplify.java" />
+        <option value="$PROJECT_DIR$/src/Sum.java" />
         <option value="$PROJECT_DIR$/src/toString.java" />
+        <option value="$PROJECT_DIR$/src/Visitor.java" />
         <option value="$PROJECT_DIR$/src/Parser.java" />
       </list>
     </option>
@@ -260,8 +219,55 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/modules.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/AltDiv.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/AltGreaterThan.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/AltLessThan.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/AltMinus.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/AltMod.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/AltMult.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/AltPlus.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/And.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/Assign.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/BooleanConst.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/Driver.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/Equals.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/Eval.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/GreaterThan.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/Identifier.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/LessThan.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/Mod.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/Or.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/Product.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/Quotient.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/Simplify.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/StringConst.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/Visitor.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/toString.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/AltDiv.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/AltGreaterThan.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/AltLessThan.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/AltMinus.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/AltMod.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/AltMult.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/AltPlus.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/And.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Assign.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/BooleanConst.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Constant.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Driver.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Equals.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Eval.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/GreaterThan.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Identifier.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/LessThan.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Mod.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Or.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Product.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Quotient.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Simplify.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/StringConst.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Visitor.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/toString.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -269,6 +275,18 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/BooleanEquals.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/Parser.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/program4/BadSample</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/program4/LexicalAnalyzer.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/program4/Sample2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/program4/Token.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/program4/TopDownParser.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/program4/Type.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/program4/program4.zip</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/program4/program4deliverable.docx</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/program7/program4/sample</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/BooleanEquals.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -854,7 +872,7 @@
       <workItem from="1459779669044" duration="881000" />
       <workItem from="1459781755579" duration="112000" />
       <workItem from="1459781945686" duration="9903000" />
-      <workItem from="1459875267337" duration="365000" />
+      <workItem from="1459875267337" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1459470849806</created>
@@ -886,32 +904,38 @@
       <option name="project" value="LOCAL" />
       <updated>1459799449606</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added program 4">
+      <created>1459875642037</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1459875642037</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11261000" />
+    <option name="totallyTimeSpent" value="11893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="479" y="0" width="1448" height="1047" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -961,14 +985,15 @@
     <MESSAGE value="test" />
     <MESSAGE value="worked a little more on the exp's gonna dd more later tonight -bob 4-2-16" />
     <MESSAGE value="worked a little more added the recursive operations, see ex 8.1, 8.2 -bob 4-2-16" />
-    <option name="LAST_COMMIT_MESSAGE" value="worked a little more added the recursive operations, see ex 8.1, 8.2 -bob 4-2-16" />
+    <MESSAGE value="added program 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="added program 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Simplify.java</url>
-          <line>103</line>
+          <line>108</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -986,7 +1011,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -997,11 +1025,13 @@
           <folding>
             <element signature="method#visit#8;class#Simplify#0" expanded="false" />
             <element signature="method#visit#10;class#Simplify#0" expanded="false" />
-            <element signature="method#visit#12;class#Simplify#0" expanded="false" />
             <element signature="method#visit#13;class#Simplify#0" expanded="false" />
             <element signature="method#visit#14;class#Simplify#0" expanded="false" />
             <element signature="method#visit#15;class#Simplify#0" expanded="false" />
             <element signature="method#visit#16;class#Simplify#0" expanded="false" />
+            <element signature="method#visit#17;class#Simplify#0" expanded="false" />
+            <element signature="e#3329#3330#0" expanded="true" />
+            <element signature="e#3356#3357#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1011,10 +1041,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
-            <element signature="e#293#294#0" expanded="false" />
-            <element signature="e#341#342#0" expanded="false" />
-            <element signature="e#373#374#0" expanded="false" />
-            <element signature="e#438#439#0" expanded="false" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1033,8 +1061,6 @@
           <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5175#5176#0" expanded="true" />
-            <element signature="e#5225#5226#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1043,10 +1069,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,8 +1095,6 @@
           <caret line="94" column="64" selection-start-line="94" selection-start-column="64" selection-end-line="94" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5175#5176#0" expanded="true" />
-            <element signature="e#5225#5226#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1082,10 +1103,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="e#278#279#0" expanded="false" />
-            <element signature="e#344#345#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1093,10 +1111,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#200#201#0" expanded="false" />
-            <element signature="e#248#249#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,9 +1119,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#237#238#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,8 +1128,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
-            <element signature="e#200#201#0" expanded="false" />
-            <element signature="e#248#249#0" expanded="false" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1126,8 +1139,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#249#250#0" expanded="false" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1137,327 +1150,292 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Quotient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Or.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="1" selection-start-line="3" selection-start-column="28" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GreaterThan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="1" selection-start-line="3" selection-start-column="25" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AltGreaterThan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LessThan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="1" selection-start-line="5" selection-start-column="22" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AltLessThan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AltMult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#200#201#0" expanded="false" />
-            <element signature="e#248#249#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AltPlus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="e#200#201#0" expanded="false" />
-            <element signature="e#248#249#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AltMinus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#249#250#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Simplify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
-          <folding>
-            <element signature="method#visit#8;class#Simplify#0" expanded="false" />
-            <element signature="method#visit#10;class#Simplify#0" expanded="false" />
-            <element signature="method#visit#12;class#Simplify#0" expanded="false" />
-            <element signature="method#visit#13;class#Simplify#0" expanded="false" />
-            <element signature="method#visit#14;class#Simplify#0" expanded="false" />
-            <element signature="method#visit#15;class#Simplify#0" expanded="false" />
-            <element signature="method#visit#16;class#Simplify#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Difference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="e#293#294#0" expanded="false" />
-            <element signature="e#341#342#0" expanded="false" />
-            <element signature="e#373#374#0" expanded="false" />
-            <element signature="e#438#439#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BooleanConst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.359955">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/And.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20224719">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Assign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24719101">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#237#238#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/program4/BadSample">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/program4/sample">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/program4/Sample2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/program4/LexicalAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2150#2158#0" expanded="true" />
-            <element signature="e#7095#7102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AltMod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44142616">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="e#278#279#0" expanded="false" />
-            <element signature="e#344#345#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Identifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5084746">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20338982">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Eval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2898305">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/program4/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/program4/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/toString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/program4/TopDownParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="63" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.610687">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5175#5176#0" expanded="true" />
-            <element signature="e#5225#5226#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AltDiv.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44217688">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AltGreaterThan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5102041">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AltLessThan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13605443">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AltMinus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47619048">
+          <caret line="16" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AltMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44217688">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AltMult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44217688">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AltPlus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47619048">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/And.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30612245">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Assign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37414965">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BooleanEquals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BooleanConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6122449">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10204082">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Difference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17006803">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Equals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27210885">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5782313">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20408164">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GreaterThan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10204082">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding>
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Identifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5102041">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LessThan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23809524">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5782313">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Or.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5102041">
+          <caret line="17" column="1" selection-start-line="3" selection-start-column="28" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5102041">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Quotient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47619048">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simplify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20408164">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="method#visit#8;class#Simplify#0" expanded="false" />
+            <element signature="method#visit#10;class#Simplify#0" expanded="false" />
+            <element signature="method#visit#13;class#Simplify#0" expanded="false" />
+            <element signature="method#visit#14;class#Simplify#0" expanded="false" />
+            <element signature="method#visit#15;class#Simplify#0" expanded="false" />
+            <element signature="method#visit#16;class#Simplify#0" expanded="false" />
+            <element signature="method#visit#17;class#Simplify#0" expanded="false" />
+            <element signature="e#3329#3330#0" expanded="true" />
+            <element signature="e#3356#3357#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StringConst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.13605443">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3824522">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.17006803">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding>
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/toString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20408164">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <marker date="1459876253994" expanded="true" signature="1:8" placeholder="/**...*/" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Visitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49493814">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.20408164">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exp.java">
+    <entry file="file://$PROJECT_DIR$/src/Eval.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.27210885">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24746907">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.5442177">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -4,7 +4,7 @@
  * Uses the Visitor pattern.
  * (This is what the optimization phase of a compiler would do)
  * 
- * @author (sdb)
+ * @author Bill Clark and Bob Seedorf
  * @version (Mar 2016)
  */
 public class Simplify implements Visitor {

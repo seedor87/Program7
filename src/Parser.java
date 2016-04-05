@@ -9,7 +9,12 @@ import java.util.HashMap;
 import java.util.ArrayList;
 
 /**
- * Created by Research on 4/4/2016.
+ * Created by Bill Clark and Bob Seedorf on 4/4/2016.
+ * This is a parser using the visitor pattern for expressions
+ * that parses the output created by the program4 package. That
+ * output is a list of tokens created from a minijava program.
+ * A symbol table is also generated, which contains the evaluation
+ * tree of any identifier the parser runs across.
  */
 public class Parser
 {

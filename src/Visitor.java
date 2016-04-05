@@ -4,7 +4,7 @@
  * Subclasses must implement an accept method.
  * Uses the Visitor pattern
  * 
- * @author (sdb)
+ * @author Bill Clark and Bob Seedorf
  * @version (Mar 2016)
  */
 public interface Visitor {

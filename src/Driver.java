@@ -15,7 +15,7 @@ import java.util.*;
  *
  * Note this class can be used on both the in-class mini-java tool, the out of class required  homework problems, and our own personal language
  * 
- * @author (sdb) Bob S. and Bill C.
+ * @author Bob S. and Bill C.
  * @version (April 2016)
  */
 

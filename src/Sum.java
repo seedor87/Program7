@@ -3,7 +3,7 @@
  * A Sum is an Expression which is the result
  * of adding two expressions.
  * 
- * @author (sdb)
+ * @author Bill Clark and Bob Seedorf
  * @version (Mar 2016)
  */
 public class Sum  extends Exp {

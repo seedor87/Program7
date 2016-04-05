@@ -6,7 +6,7 @@
  * Uses the Visitor pattern.
  * (This is what an interpreter would do, not a compiler)
  * 
- * @author (sdb) and Bob
+ * @author Bill C and Bob S
  * @version (Mar 2016) and April 2016
  */
 public class Eval implements Visitor {
