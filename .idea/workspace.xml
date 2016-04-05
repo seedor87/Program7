@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f2106c4-9475-4445-83ba-5a9253ced13c" name="Default" comment=" basic string operations and toString implemented">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="9f2106c4-9475-4445-83ba-5a9253ced13c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/AltDiv.class" afterPath="$PROJECT_DIR$/out/production/program7/AltDiv.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/AltGreaterThan.class" afterPath="$PROJECT_DIR$/out/production/program7/AltGreaterThan.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/AltLessThan.class" afterPath="$PROJECT_DIR$/out/production/program7/AltLessThan.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/AltMinus.class" afterPath="$PROJECT_DIR$/out/production/program7/AltMinus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/AltMod.class" afterPath="$PROJECT_DIR$/out/production/program7/AltMod.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/AltMult.class" afterPath="$PROJECT_DIR$/out/production/program7/AltMult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/AltPlus.class" afterPath="$PROJECT_DIR$/out/production/program7/AltPlus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/And.class" afterPath="$PROJECT_DIR$/out/production/program7/And.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/Assign.class" afterPath="$PROJECT_DIR$/out/production/program7/Assign.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/BooleanConst.class" afterPath="$PROJECT_DIR$/out/production/program7/BooleanConst.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/Driver.class" afterPath="$PROJECT_DIR$/out/production/program7/Driver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/Equals.class" afterPath="$PROJECT_DIR$/out/production/program7/Equals.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/Eval.class" afterPath="$PROJECT_DIR$/out/production/program7/Eval.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/GreaterThan.class" afterPath="$PROJECT_DIR$/out/production/program7/GreaterThan.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/Identifier.class" afterPath="$PROJECT_DIR$/out/production/program7/Identifier.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/LessThan.class" afterPath="$PROJECT_DIR$/out/production/program7/LessThan.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/Mod.class" afterPath="$PROJECT_DIR$/out/production/program7/Mod.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/Or.class" afterPath="$PROJECT_DIR$/out/production/program7/Or.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/Product.class" afterPath="$PROJECT_DIR$/out/production/program7/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/Quotient.class" afterPath="$PROJECT_DIR$/out/production/program7/Quotient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/Simplify.class" afterPath="$PROJECT_DIR$/out/production/program7/Simplify.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/StringConst.class" afterPath="$PROJECT_DIR$/out/production/program7/StringConst.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/Visitor.class" afterPath="$PROJECT_DIR$/out/production/program7/Visitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/program7/toString.class" afterPath="$PROJECT_DIR$/out/production/program7/toString.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AltDiv.java" afterPath="$PROJECT_DIR$/src/AltDiv.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AltGreaterThan.java" afterPath="$PROJECT_DIR$/src/AltGreaterThan.java" />
@@ -792,7 +815,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459788723048</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="comments added">
+      <created>1459874593348</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1459874593348</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -840,7 +869,8 @@
     <MESSAGE value="worked a little more added the recursive operations, see ex 8.1, 8.2 -bob 4-2-16" />
     <MESSAGE value="basic string operations implemented" />
     <MESSAGE value=" basic string operations and toString implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value=" basic string operations and toString implemented" />
+    <MESSAGE value="comments added" />
+    <option name="LAST_COMMIT_MESSAGE" value="comments added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
