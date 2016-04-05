@@ -1,5 +1,7 @@
 /**
  * Created by robertseedorf on 4/4/16.
+ *
+ * this class represetsn all string variables in our language
  */
 public class StringConst extends Exp {
     String value;

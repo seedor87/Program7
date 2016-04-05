@@ -1,5 +1,7 @@
 /**
  * Created by robertseedorf on 3/31/16.
+ *
+ * this class represents all non-typed identifier in out language, this is all method calls, variable names and class names
  */
 public class Identifier extends Exp {
 

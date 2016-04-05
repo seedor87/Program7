@@ -6,20 +6,20 @@ import java.util.*;
  * Test the Expression interpreter.
  *  
  * Uses the Visitor pattern
+ *
+ * This class test all of the features of our expression verification methods.
+ * Each test is denoted by a cooresponding example header and can be found in the source code under the print header.
+ * These tests include all of the integer expression evalutions, string variable and string assignment operations, boolean cosntant expressions and the two problems required by the assignemnt as posted.
+ *
+ * We have cohsen to implement the recursive operations (+=) using ?+. These have been accomplished and are recorded in examples 8.1 and 8.2
+ *
+ * Note this class can be used on both the in-class mini-java tool, the out of class required  homework problems, and our own personal language
  * 
- *    UNDER CONSTRUCTION
- *    Mar. 26:  Attempt using Generics... won't compile.
- * 
- * @author (sdb)
- * @version (Mar 2016)
+ * @author (sdb) Bob S. and Bill C.
+ * @version (April 2016)
  */
 
 public class Driver {
-
-    /*
-    Table of variables and values
-     */
-    public static HashMap<Object, Object> table = new HashMap<Object, Object>();
 
     public static void main(String[] args) {
 
@@ -41,8 +41,7 @@ public class Driver {
         catch (Exception e) {
             print ("Exception caught");
         }
-
-        Exp e3 = new Assign (x, e1);                            // x = 3
+        Exp e3 = new Assign (x, e1);                    // x = 3
         print (intrp.visit (new Product (e3,e2)));      // (x=3) * 7
 
         print("---- Ex 3 ---");
@@ -58,13 +57,13 @@ public class Driver {
         
         Exp e4 = new Sum (new Constant(2), new Constant(3));
         Equals eq = new Equals();
-        print ("3+2 == 2+3: " + eq.visit (e2, e4));
+        print ("3+2 == 2+3: " + eq.visit (e2, e4));         // 3 + 2 == 3 + 2
 
         print("---- Ex 4 ---");
         diff = new Difference (e2, e4);
         Exp e5 = simple.visit (diff);
         print (diff.toString());
-        print (e5.toString());
+        print (e5.toString());                              //simplify : 0
 
         print("---- Ex 5 ---");
         e1 = new Quotient(new Constant(5), new Constant(4));
@@ -77,7 +76,7 @@ public class Driver {
         e1 = new BooleanConst(true);
         e2 = new BooleanConst(false);
         question = new And(e1, e2);
-        print (question + ": " + intrp.visit((And) question));
+        print (question + ": " + intrp.visit((And) question));  // true and false yields false
 
         print("---- Ex 7 ---");
         e2 = new Sum(new Constant(6), new Constant(2));

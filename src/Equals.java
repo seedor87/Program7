@@ -1,10 +1,12 @@
+import com.sun.org.apache.xpath.internal.operations.Bool;
+
 /**
  * Task:  Test arithmetic expressions for equality.
  * Implements Visitor.
  * Uses the Visitor pattern.
  * (This is what the optimization phase of a compiler would do)
  * 
- * @author (sdb)
+ * @author (sdb) and Bob S. and Will C.
  * @version (Mar 2016)
  */
 public class Equals implements Visitor {
@@ -80,6 +82,8 @@ public class Equals implements Visitor {
     public Boolean visit (AltLessThan n) {
         return visit (n.left, n.right);
     }
+
+    public Boolean visit (BooleanEquals n) { return visit (n.left, n.right); }
 
     public Boolean visit (Assign n) {
         return visit (n.left, n.right);

@@ -1,0 +1,24 @@
+# comment; written by Bob S. and Bill C.
+# comment; Missing a period in the method call on line 13
+# Missing a Semicolon on line 22
+public class Example
+{
+
+    public static void main(String[] args)
+    {
+
+    	alphabet = "abcdefghijklmnopqrstuvwxyz";
+     	alternate = "zabcdefghijklmnopqrstuvwxy";
+        in = "helloworld";
+        out = "";
+        length = inlength();
+        for(i = 0; i < in.length(); i = i+1;)
+        {
+            newindex = alphabet.indexOf(in.charAt(i));
+            newchar = alternate.charAt(x);
+            out = out + newchar;
+
+        }
+        System.out.println(out)
+
+    }

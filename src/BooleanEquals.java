@@ -1,11 +1,11 @@
 /**
- * Created by robertseedorf on 4/2/16.
+ * Created by robertseedorf on 4/5/16.
  *
- * * this class represents -= in regular java
+ * this class represents == in regular java
  */
-public class AltMinus extends Exp{
+public class BooleanEquals extends Exp{
 
-    public AltMinus (Exp l, Exp r) {
+    public BooleanEquals (Exp l, Exp r) {
         left = l;
         right = r;
     }

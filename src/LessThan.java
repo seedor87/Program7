@@ -1,7 +1,8 @@
-import java.rmi.server.ExportException;
 
 /**
  * Created by robertseedorf on 4/2/16.
+ *
+ * this class represents < in regular java
  */
 public class LessThan extends Exp{
 
