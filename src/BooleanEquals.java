@@ -15,6 +15,6 @@ public class BooleanEquals extends Exp{
     }
 
     public String toString() {
-        return left.toString() + " ?- " + right.toString();
+        return left.toString() + " ?= " + right.toString();
     }
 }

@@ -1,3 +1,4 @@
+import javax.swing.text.StyledEditorKit;
 import java.util.HashMap;
 import java.util.Objects;
 
@@ -146,6 +147,56 @@ public class Driver {
         print(toStr.visit(quo));
         question = new Assign(e, quo);     // e =  a / (b+2)
         print(toStr.visit(question));
+
+        print("---- Ex 12 ----");
+        Sum p = new Sum(new Constant(5), new BooleanConst(false));
+        intrp = new Eval();                                     // A Visitor which evaluates an expression tree
+        try  {
+            print(intrp.visit (p));
+        }          // An Exception is thrown
+        catch (Exception ex) {
+            print(ex);
+        }
+
+        print("---- Ex 13 ----");
+        Or q = new Or(new Constant(5), new BooleanConst(false));
+        intrp = new Eval();                                     // A Visitor which evaluates an expression tree
+        try  {
+            print(intrp.visit (q));
+        }          // An Exception is thrown
+        catch (Exception ex) {
+            print(ex);
+        }
+
+        print("---- Ex 14 ----");
+        AltLessThan r = new AltLessThan(new Constant(5), new StringConst("hello"));
+        intrp = new Eval();                                     // A Visitor which evaluates an expression tree
+        try  {
+            print(intrp.visit (r));
+        }          // An Exception is thrown
+        catch (Exception ex) {
+            print(ex);
+        }
+
+        print("---- Ex 15 ----");
+        Constant five = new Constant(5);
+        BooleanConst True = new BooleanConst(true);
+        StringConst me = new StringConst("me");
+        BooleanEquals equivalence1 =new BooleanEquals(five, True);
+        try  {
+            print(intrp.visit (equivalence1));
+        }          // An Exception is thrown
+        catch (Exception ex) {
+            print(ex);
+        }
+        BooleanEquals equivalence2 = new BooleanEquals(True, me);
+        try {
+            print(intrp.visit (equivalence2));
+        }           // An Exception is thrown
+        catch (Exception ex) {
+            print(ex);
+        }
+        print(new BooleanEquals(me, me) + ": " + intrp.visit(new BooleanEquals(me, me)));
     }
 
     public static void print(Object o) {

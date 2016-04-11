@@ -26,7 +26,8 @@ public class Parser
 
         LexicalAnalyzer lex = new LexicalAnalyzer();
         // Read in from file put in collection tokens
-        File f = new File("C:\\Users\\Research\\Documents\\Code Repositories\\Program7\\src\\program4\\sample");
+        File f = new File("/Users/robertseedorf/IdeaProjects/program7/src/program4/sample");
+        File output = new File("/Users/robertseedorf/IdeaProjects/program7/src/program4/output.txt");
         FileInputStream fis = new FileInputStream(f);
         BufferedReader br = new BufferedReader(new InputStreamReader(fis));
         tokens = new ArrayList<Token>();
