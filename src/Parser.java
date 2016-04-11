@@ -26,8 +26,8 @@ public class Parser
 
         LexicalAnalyzer lex = new LexicalAnalyzer();
         // Read in from file put in collection tokens
-        File f = new File("/Users/robertseedorf/IdeaProjects/program7/src/program4/sample");
-        File output = new File("/Users/robertseedorf/IdeaProjects/program7/src/program4/output.txt");
+        File f = new File("C:\\Users\\Research\\Documents\\Code Repositories\\Program7\\src\\sample");
+        //File output = new File("C:\\Users\\Research\\Documents\\Code Repositories\\Program7\\src\\sample");
         FileInputStream fis = new FileInputStream(f);
         BufferedReader br = new BufferedReader(new InputStreamReader(fis));
         tokens = new ArrayList<Token>();
@@ -39,7 +39,18 @@ public class Parser
         }
         br.close();
 
-        System.out.println(generateSymbolTable());
+        ArrayList<Assign> table = generateSymbolTable();
+        System.out.println(table);
+        for(Exp a: table)
+        {
+            Eval intrp = new Eval();                                     // A Visitor which evaluates an expression tree
+            try  {
+                System.out.println(intrp.visit ((Assign)a));
+            }          // An Exception is thrown
+            catch (Exception ex) {
+                System.out.println(ex);
+            }
+        }
     }
 
     public static ArrayList<Assign> generateSymbolTable()
@@ -76,6 +87,7 @@ public class Parser
                         tokens.remove(0);
                         tokens.remove(0);
                         tokens.remove(0);
+                        a = new Assign(id, new StringConst(""));
                     }
                     else
                     {

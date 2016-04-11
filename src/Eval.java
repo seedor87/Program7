@@ -15,8 +15,11 @@ public class Eval implements Visitor {
          if(n.left instanceof BooleanConst || n.right instanceof BooleanConst) {
              throw new IllegalArgumentException("Cannot perform " + n.getClass() + " on boolean, at " + n.toString());
          }
-         if(n.left instanceof StringConst || n.right instanceof StringConst) {
+         if(n.left instanceof StringConst && n.right instanceof StringConst) {
             return (String) n.left.accept(this) + (String) n.right.accept (this);
+         }
+         if(n.left instanceof StringConst && !(n.right instanceof StringConst)) {
+             return (String) n.left.accept(this) + " + " + (Integer) n.right.accept (this);
          }
          return (Integer) n.left.accept(this) + (Integer) n.right.accept (this);
      }
@@ -141,7 +144,11 @@ public class Eval implements Visitor {
             ((Identifier) (n.left)).setValue((String) n.right.accept(this));
             return n.right.accept(this);
         }
-        if(n.right instanceof Sum) {
+        if(n.right instanceof Sum  && n.right.right instanceof StringConst) {
+            ((Identifier) (n.left)).setValue((String) n.right.accept(this));
+            return n.right.accept(this);
+        }
+        if(n.right instanceof Sum && n.right.left instanceof StringConst  && !(n.right.right instanceof StringConst)) {
             ((Identifier) (n.left)).setValue((String) n.right.accept(this));
             return n.right.accept(this);
         }
